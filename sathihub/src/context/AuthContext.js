@@ -2,7 +2,7 @@ import React, { createContext, useState, useContext, useEffect, useCallback, use
 import axios from 'axios';
 
 const AuthContext = createContext();
-const API = '/api/v1';
+const API = 'https://sathihub-in.onrender.com';
 const ACCESS_TOKEN_KEY = 'access_token';
 const REFRESH_TOKEN_KEY = 'refresh_token';
 const CACHED_USER_KEY = 'cached_user';

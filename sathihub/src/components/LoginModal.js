@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { X, Phone, Lock, Eye, EyeOff, Mail, Loader2 } from 'lucide-react';
 import axios from 'axios';
 
-const API = '/api/v1';
+const API = 'https://sathihub-in.onrender.com';
 
 const formatPhone = (raw) => {
   const digits = raw.replace(/\D/g, '');
